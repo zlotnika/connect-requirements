@@ -1,0 +1,13 @@
+{
+  "name": "connect-requirements",
+  "description": "Require specific keys in request.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Alex Zlotnik",
+    "email": "zlotnika@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zlotnika/connect-requirements.git"
+  }
+}
