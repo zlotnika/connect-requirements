@@ -9,5 +9,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:zlotnika/connect-requirements.git"
+  },
+  "devDependencies": {
+    "express": "~3.4.7"
   }
 }

@@ -12,9 +12,9 @@ exports = module.exports = function(options) {
                 // key as in 'data', or 'language'
                 var key = required_keys[index]
 
-                if ( !request[name].hasOwnProperty(key) ) {
+                if ( !request[name] || !request[name].hasOwnProperty(key) ) {
                     var error_message = 'Error: request missing ' + key + ' in ' + name
-                    response.status(400)
+                    response.statusCode = 400
                     return next(error_message)
                 }
             }
