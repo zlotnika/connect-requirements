@@ -1,7 +1,7 @@
 {
   "name": "connect-requirements",
   "description": "Require specific keys in request.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Alex Zlotnik",
     "email": "zlotnika@gmail.com"
